@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*** Custom fonts ***/
-@import url('./blubook/fonts.css');
+/*** @import url('./blubook/fonts.css'); ***/
 
 /*** Color setting ***/
 :root {
@@ -197,9 +197,8 @@ body {
 }
 
 hr {
-  border-color: #e6ecf1;
-  height: 2px;
-  border-top: 2px solid #e6ecf1;
+  height: 0;
+  border: 2px solid #e6ecf1;
 }
 
 img {
@@ -316,7 +315,7 @@ a {
 
 #write a:hover {
   color: rgb(56, 132, 254);
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-style: solid;
 }
 
